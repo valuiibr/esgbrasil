@@ -1,1 +1,93 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diagnóstico ESG | ESG Brasil</title><link rel="icon" href="assets/favicon.png"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body class="diagnostic"><header class="header"><a class="brand" href="index.html"><img src="assets/logo-horizontal.png" alt="ESG Brasil"></a><button class="menu">☰</button><nav><a href="index.html#solucoes">Soluções</a><a href="index.html#segmentos">Segmentos</a><a href="diagnostico.html">Diagnóstico</a><a href="blog.html">Conteúdos</a><a href="index.html#contato">Contato</a></nav></header><section class="page-hero"><span class="eyebrow">DIAGNÓSTICO DE MATURIDADE ESG</span><h1>Qual é o estágio ESG da sua organização?</h1><p>Responda às questões abaixo com base em práticas efetivamente existentes. O resultado é uma leitura inicial e não constitui certificação, auditoria ou asseguração independente.</p></section><main class="content-wrap"><form id="diag"><h2>Estratégia e Governança</h2><div class="question"><p>1. A organização possui responsabilidades ESG formalmente definidas?</p><div class="options"><label><input required type="radio" name="q1" value="1"> Sim</label><label><input type="radio" name="q1" value="0"> Não</label></div></div><div class="question"><p>2. Temas ESG são considerados no planejamento estratégico ou na tomada de decisão?</p><div class="options"><label><input required type="radio" name="q2" value="1"> Sim</label><label><input type="radio" name="q2" value="0"> Não</label></div></div><h2>Ambiental e Clima</h2><div class="question"><p>3. A organização monitora consumo de energia, água, resíduos ou emissões relevantes?</p><div class="options"><label><input required type="radio" name="q3" value="1"> Sim</label><label><input type="radio" name="q3" value="0"> Não</label></div></div><div class="question"><p>4. Existem metas ou planos de redução dos impactos ambientais prioritários?</p><div class="options"><label><input required type="radio" name="q4" value="1"> Sim</label><label><input type="radio" name="q4" value="0"> Não</label></div></div><h2>Social e Impacto</h2><div class="question"><p>5. A organização acompanha indicadores relacionados a pessoas, saúde, segurança, diversidade ou impacto social?</p><div class="options"><label><input required type="radio" name="q5" value="1"> Sim</label><label><input type="radio" name="q5" value="0"> Não</label></div></div><div class="question"><p>6. Há mecanismos formais para ouvir colaboradores, beneficiários, clientes ou comunidades relevantes?</p><div class="options"><label><input required type="radio" name="q6" value="1"> Sim</label><label><input type="radio" name="q6" value="0"> Não</label></div></div><h2>Integridade e Compliance</h2><div class="question"><p>7. A organização possui código de conduta, políticas de integridade ou regras equivalentes formalizadas?</p><div class="options"><label><input required type="radio" name="q7" value="1"> Sim</label><label><input type="radio" name="q7" value="0"> Não</label></div></div><div class="question"><p>8. Existe canal ou mecanismo seguro para relatos de desvios e tratamento de ocorrências?</p><div class="options"><label><input required type="radio" name="q8" value="1"> Sim</label><label><input type="radio" name="q8" value="0"> Não</label></div></div><h2>Riscos, Indicadores e Transparência</h2><div class="question"><p>9. Riscos ESG relevantes são identificados e acompanhados pela gestão?</p><div class="options"><label><input required type="radio" name="q9" value="1"> Sim</label><label><input type="radio" name="q9" value="0"> Não</label></div></div><div class="question"><p>10. A organização divulga indicadores, resultados ou compromissos ESG de forma periódica?</p><div class="options"><label><input required type="radio" name="q10" value="1"> Sim</label><label><input type="radio" name="q10" value="0"> Não</label></div></div><button class="btn primary" type="submit" style="border:0;margin-top:25px">Ver meu resultado</button></form><div id="result" class="result"></div></main><footer><img src="assets/logo-horizontal.png" alt="ESG Brasil"><small>© 2026 ESG Brasil – Sustentabilidade Corporativa. Todos os direitos reservados.</small></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Diagnóstico de Maturidade ESG | ESG Brasil</title>
+  <meta name="description" content="Avalie a maturidade ESG da sua organização e receba uma leitura por dimensão, prioridades e um plano inicial de evolução.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon-oficial.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="diagnostic">
+  <header class="header">
+    <a class="brand" href="index.html"><img src="assets/logo-oficial-clara.svg" alt="ESG Brasil - Sustentabilidade Corporativa"></a>
+    <button class="menu" aria-label="Abrir menu">☰</button>
+    <nav><a href="index.html#solucoes">Soluções</a><a href="index.html#segmentos">Segmentos</a><a href="diagnostico.html">Diagnóstico</a><a href="blog.html">Blog</a><a href="index.html#contato">Contato</a></nav>
+  </header>
+
+  <main>
+    <section class="page-hero diag-hero">
+      <span class="eyebrow">DIAGNÓSTICO DE MATURIDADE ESG</span>
+      <h1>Qual é o estágio ESG da sua organização?</h1>
+      <p>Responda com base em práticas efetivamente existentes. Ao final, você verá a nota geral, a leitura por dimensão, os principais pontos de atenção e três prioridades iniciais.</p>
+      <div class="diag-badges"><span>5 dimensões</span><span>10 questões</span><span>Resultado automático</span><span>Gratuito</span></div>
+    </section>
+
+    <div class="diag-shell">
+      <form id="diag" class="diag-card" novalidate>
+        <div class="diag-intro"><span class="eyebrow dark">AUTODIAGNÓSTICO</span><h2>Responda com objetividade</h2><p>Considere apenas práticas implementadas hoje. O resultado é orientativo e não constitui certificação, auditoria ou asseguração independente.</p></div>
+
+        <section class="diag-dimension"><h2>Estratégia e Governança</h2>
+          <div class="question"><p>1. A organização possui responsabilidades ESG formalmente definidas?</p><div class="options"><label><input required type="radio" name="q1" value="1"> Sim</label><label><input type="radio" name="q1" value="0"> Não</label></div></div>
+          <div class="question"><p>2. Temas ESG são considerados no planejamento estratégico ou na tomada de decisão?</p><div class="options"><label><input required type="radio" name="q2" value="1"> Sim</label><label><input type="radio" name="q2" value="0"> Não</label></div></div>
+        </section>
+        <section class="diag-dimension"><h2>Ambiental e Clima</h2>
+          <div class="question"><p>3. A organização monitora consumo de energia, água, resíduos ou emissões relevantes?</p><div class="options"><label><input required type="radio" name="q3" value="1"> Sim</label><label><input type="radio" name="q3" value="0"> Não</label></div></div>
+          <div class="question"><p>4. Existem metas ou planos de redução dos impactos ambientais prioritários?</p><div class="options"><label><input required type="radio" name="q4" value="1"> Sim</label><label><input type="radio" name="q4" value="0"> Não</label></div></div>
+        </section>
+        <section class="diag-dimension"><h2>Social e Impacto</h2>
+          <div class="question"><p>5. A organização acompanha indicadores relacionados a pessoas, saúde, segurança, diversidade ou impacto social?</p><div class="options"><label><input required type="radio" name="q5" value="1"> Sim</label><label><input type="radio" name="q5" value="0"> Não</label></div></div>
+          <div class="question"><p>6. Há mecanismos formais para ouvir colaboradores, beneficiários, clientes ou comunidades relevantes?</p><div class="options"><label><input required type="radio" name="q6" value="1"> Sim</label><label><input type="radio" name="q6" value="0"> Não</label></div></div>
+        </section>
+        <section class="diag-dimension"><h2>Integridade e Compliance</h2>
+          <div class="question"><p>7. A organização possui código de conduta, políticas de integridade ou regras equivalentes formalizadas?</p><div class="options"><label><input required type="radio" name="q7" value="1"> Sim</label><label><input type="radio" name="q7" value="0"> Não</label></div></div>
+          <div class="question"><p>8. Existe canal ou mecanismo seguro para relatos de desvios e tratamento de ocorrências?</p><div class="options"><label><input required type="radio" name="q8" value="1"> Sim</label><label><input type="radio" name="q8" value="0"> Não</label></div></div>
+        </section>
+        <section class="diag-dimension"><h2>Riscos, Indicadores e Transparência</h2>
+          <div class="question"><p>9. Riscos ESG relevantes são identificados e acompanhados pela gestão?</p><div class="options"><label><input required type="radio" name="q9" value="1"> Sim</label><label><input type="radio" name="q9" value="0"> Não</label></div></div>
+          <div class="question"><p>10. A organização divulga indicadores, resultados ou compromissos ESG de forma periódica?</p><div class="options"><label><input required type="radio" name="q10" value="1"> Sim</label><label><input type="radio" name="q10" value="0"> Não</label></div></div>
+        </section>
+        <p id="diagError" class="diag-error" role="alert"></p>
+        <button class="btn primary" type="submit">Concluir respostas →</button>
+      </form>
+
+      <form id="esgGate" class="diag-card diag-hidden" novalidate>
+        <span class="eyebrow dark">SEU RESULTADO ESTÁ PRONTO</span>
+        <h2>Identifique-se para visualizar a análise completa</h2>
+        <p class="diag-muted">Os dados contextualizam o resultado e permitem que a ESG Brasil apresente conteúdos e orientações relacionados ao tema.</p>
+        <div class="diag-formgrid">
+          <label>Nome *<input id="esgName" autocomplete="name" required></label>
+          <label>Organização *<input id="esgCompany" autocomplete="organization" required></label>
+          <label>Cargo ou função *<input id="esgRole" required></label>
+          <label>WhatsApp *<input id="esgPhone" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" required></label>
+          <label>E-mail profissional *<input id="esgEmail" type="email" autocomplete="email" required></label>
+          <label>Cidade / UF *<input id="esgCity" autocomplete="address-level2" placeholder="Cidade / UF" required></label>
+        </div>
+        <label class="diag-consent"><input id="esgConsent" type="checkbox" required><span>Autorizo o tratamento dos dados informados para disponibilização deste resultado e contato relacionado a conteúdos e soluções ESG.</span></label>
+        <p id="gateError" class="diag-error" role="alert"></p>
+        <button class="btn primary" type="submit">Ver meu resultado →</button>
+      </form>
+
+      <section id="esgResult" class="diag-result diag-hidden" aria-live="polite">
+        <div class="diag-card diag-result-hero">
+          <div class="diag-donut" id="esgDonut"><div><strong id="esgScore">0</strong><span>de 100</span></div></div>
+          <div><span class="eyebrow">RESULTADO DO DIAGNÓSTICO</span><h2 id="esgHello"></h2><h3 id="esgLevel"></h3><p id="esgSummary"></p></div>
+        </div>
+        <div class="diag-card">
+          <span class="eyebrow dark">DESEMPENHO POR DIMENSÃO</span><h2>Visão integrada da maturidade ESG</h2><div id="esgBars" class="diag-bars"></div>
+        </div>
+        <div class="diag-card"><span class="eyebrow dark">LEITURA EXECUTIVA</span><h2>O que suas respostas indicam</h2><div class="diag-insights"><article><b>Ponto de maior maturidade</b><span id="esgStrong"></span></article><article><b>Principal ponto de atenção</b><span id="esgWeak"></span></article></div></div>
+        <div class="diag-card"><span class="eyebrow dark">PLANO INICIAL</span><h2>Três prioridades recomendadas</h2><ol id="esgPriorities" class="diag-priorities"></ol></div>
+        <div class="diag-card diag-ebook"><div><span class="eyebrow">CONTEÚDO COMPLEMENTAR</span><h2>Guia ESG Brasil - Maturidade ESG</h2><p>Fundamentos para estruturar governança, indicadores, riscos e prioridades ambientais, sociais e de integridade.</p></div><a class="btn primary" href="assets/downloads/Guia_ESG_Brasil_Maturidade_ESG.pdf" download>Baixar e-book →</a></div>
+        <div class="diag-card"><span class="eyebrow dark">PRÓXIMOS PASSOS</span><h2>Quer aprofundar esta leitura?</h2><p class="diag-muted">Uma análise técnica permite validar evidências, compreender causas e transformar os pontos de atenção em um roadmap ESG aplicável.</p><div class="diag-actions"><a class="btn primary" href="https://wa.me/5519920041267?text=Ol%C3%A1%2C%20conclu%C3%AD%20o%20Diagn%C3%B3stico%20ESG%20Brasil%20e%20gostaria%20de%20conhecer%20os%20pr%C3%B3ximos%20passos." target="_blank" rel="noopener">Entrar em contato →</a><button class="btn diag-secondary" type="button" onclick="window.print()">Baixar resultado em PDF</button><button class="btn diag-secondary" type="button" id="esgRestart">Começar novo diagnóstico</button></div></div>
+        <p class="diag-notice">Este autodiagnóstico é uma ferramenta educativa e orientativa baseada exclusivamente nas respostas fornecidas. Não representa certificação, auditoria, asseguração independente, parecer técnico ou declaração de conformidade.</p>
+      </section>
+    </div>
+  </main>
+  <footer><img src="assets/logo-oficial-clara.svg" alt="ESG Brasil - Sustentabilidade Corporativa"><small>© 2026 ESG Brasil - Sustentabilidade Corporativa. Todos os direitos reservados.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
